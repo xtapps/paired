@@ -1,0 +1,30 @@
+  <ion-toolbar>
+      <ion-buttons slot="start" class="back_btn">
+        <ion-back-button defaultHref="" color="secondary"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+
+
+  <ion-content class="dashboard">
+  <ion-row>
+		<ion-col size="5" offset="3">
+			<img src="/assets/images/mobile_logo.png" class="logo_img">
+		</ion-col>
+	</ion-row>
+
+	<p class="mob_text">My Last Name is</p>
+
+	<ion-card class="input_card">
+	    <ion-input class="user_text" type="text"></ion-input>
+	</ion-card>
+
+	<p class="appear_text">So your partner can find you.</p>
+
+	<ion-row>
+		<ion-col size="4" offset="4" [routerLink] ="['/birthday']">
+			<img src="/assets/images/login_btn.png" class="login_btn">
+		</ion-col>
+	</ion-row>
+
+
+  </ion-content>

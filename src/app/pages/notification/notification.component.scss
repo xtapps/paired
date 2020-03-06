@@ -1,0 +1,40 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+.header{
+	background-color: #bd8f99;
+}
+.round_ico{
+	padding: 11px 0 0 8px;
+	font-size: 8px;
+}
+.minute_txt{
+	font-size: 9px;
+    margin-left: -12px;
+}
+.friend_request{
+	font-size: 9px;
+    font-weight: 500;
+    margin: -16px 0 0 0px;
+}
+.forward_arrow{
+	margin: 16px 0 0 34px;
+}
+.notification_card{
+	border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+}
+.notify{
+    margin: 25px 0 0 0;
+    font-size: 13px;
+}
+.back_btn{
+	margin: 10px 0 0 0;
+}

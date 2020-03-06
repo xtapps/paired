@@ -1,0 +1,28 @@
+  <ion-toolbar>
+      <ion-buttons slot="start" class="back_btn">
+        <ion-back-button defaultHref="" color="secondary"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+
+ <ion-content class="dashboard">
+
+ 	<ion-row>
+		<ion-col size="4" offset="4">
+			<img src="/assets/images/mobile_logo.png" class="logo_img">
+		</ion-col>
+	</ion-row>
+
+ 	<p class="mob_text">My Mobile Number is</p>
+
+ 	<ion-card class="input_card">
+	    <ion-input placeholder="(_ _ _) _ _ _ _ _ _ _" class="user_text" type="number">+1 </ion-input>
+	</ion-card>
+
+
+	<ion-row>
+		<ion-col size="4" offset="4" [routerLink] ="['/otp-verify']">
+			<img src="/assets/images/login_btn.png" class="login_btn">
+		</ion-col>
+	</ion-row>
+
+ </ion-content>

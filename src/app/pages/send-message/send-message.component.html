@@ -1,0 +1,28 @@
+  <ion-toolbar>
+      <ion-buttons slot="start" class="back_btn">
+        <ion-back-button defaultHref="" color="secondary"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+
+ <ion-content class="dashboard">
+
+ 	<ion-row>
+		<ion-col size="6" offset="3">
+			<img src="/assets/images/logo.png" class="logo_icon">
+		</ion-col>
+	</ion-row>
+
+
+ 	<ion-card class="input_card">
+	    <ion-input placeholder="_ _ _ _ _ _ _ _ _ _" class="user_text" type="number">+1 </ion-input>
+	</ion-card>
+
+
+	<ion-card class="input_card1">
+	    <ion-input class="user_text1" type="text" placeholder="............">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</ion-input>
+	</ion-card>
+  <div class="btn_search">
+  <ion-button color="secondary" class="send_btn" [routerLink]="['/message-send']">Send</ion-button>
+
+</div>
+</ion-content>

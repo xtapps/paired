@@ -1,0 +1,39 @@
+   <ion-toolbar class="tool" >
+	   <ion-row>
+		   <ion-col size="2">
+			   	<ion-back-button defaultHref="" class="back_btn" color="secondary"></ion-back-button>
+		   </ion-col>
+			   <ion-col size="8">
+			   	<p class="notify">Edit Info</p>
+			   </ion-col>
+	   </ion-row>
+   </ion-toolbar>
+
+   <ion-content class="dashboard">
+
+   	<p class="status_txt">Status</p>
+
+   	<ion-card class="married_card">
+   		<ion-input placeholder="Married" class="input_married"></ion-input>
+   	</ion-card>
+
+   	<p class="status_txt">Bio</p>
+
+   	<ion-card class="married_card1">
+   		<ion-input  class="input_married1">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</ion-input>
+   	</ion-card>
+
+
+   	<p class="status_txt">Activities</p>
+
+   	<ion-card class="married_card2">
+   		<ion-input class="input_married2">Travel,Swimming,Photography,Wall Art,Food Expploring</ion-input>
+   	</ion-card>
+
+	<ion-footer>
+		
+		<ion-button expand="block" color="white" class="update_btn"  [routerLink] ="['/updated-profile']">Update Info</ion-button>
+		<p class="back_home"> <ion-icon name="arrow-back"></ion-icon>Back to home</p>
+
+	</ion-footer>
+   </ion-content>

@@ -1,0 +1,46 @@
+<ion-content class="dashboard" transparent>	
+	<ion-row>
+		<ion-col size="6" offset="3">
+			<img src="/assets/images/register_logo.png" class="register_logo">
+		</ion-col>
+	</ion-row>
+
+    <p class="welcome_txt"> Welcome To Pair'd</p>
+    <p class="wlcm_disc">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+    <p class="wlcm_disc">Lorem ipsum is placeholder text commonly used in the graphic,</p>
+
+     <ion-card class="input_card">
+	    <ion-input placeholder="Email" class="user_text"></ion-input>
+	</ion-card>
+	<ion-card class="input_card">
+	    <ion-input type="password" placeholder="Create Password" class="user_text"></ion-input>
+	</ion-card>
+	<ion-card class="input_card">
+	    <ion-input type="password" placeholder="Confirm Password" class="user_text"></ion-input>
+	</ion-card>
+   <!--  <ion-row>
+    	<ion-col size="10" offset="2">	
+           <ion-checkbox class="check_box" color="secondary"></ion-checkbox>
+           <p class="check_text">Lorem ipsum is placeholder text commonly</p>
+       </ion-col>
+    </ion-row> -->
+
+      <ion-row>
+    	<ion-col size="10" offset="1" style="padding: 0;">
+	    <ion-item color="transparent" lines="none">
+            <ion-checkbox color="secondary" slot="start"></ion-checkbox>
+            <ion-label>   <p class="check_text">By proceeding you also agree to the 
+				Terms of Services and Privacy Policy</p></ion-label>
+          </ion-item>
+	</ion-col>
+   </ion-row>
+    <p class="log_btn" [routerLink]="['/mobile-number']">Register</p>
+    
+    <ion-row>
+		<ion-col size="4" offset="4"  [routerLink]="['/mobile-number']">
+			<img src="/assets/images/login_btn.png" class="login_btn">
+		</ion-col>
+	</ion-row>
+
+   <p class="signup_btn" [routerLink]="['/signin']">Already a Member? Sign In</p>
+</ion-content>

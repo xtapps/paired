@@ -1,0 +1,59 @@
+.foot_icons{
+	margin: 0 auto;
+    display: block;
+}
+.icon_txt{
+    font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.miles_txt{
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0px 0 0px;
+}
+.name{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 13px 26px 0;
+}
+.pin_icon{ 
+    float: left;
+    margin-right: 6px;
+}
+.user_loc{
+    margin:0 20px;
+}
+.footer_row{
+    margin: 12px 20px 0;
+    padding: 10px 0;
+}
+ion-toolbar {
+    --background: transparent;
+    --ion-color-base: #FFF !important;
+    position: absolute;
+}
+.frosted_bar{  
+    margin-top: -53px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 15px;
+    margin-bottom: 0;
+    .blurr_bg{
+        left: 0px;
+        position: absolute;
+        width: 115%;
+        height: 115%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        filter: blur(6px);
+        opacity: 0.9;
+    
+    }
+}
+ion-footer{
+    box-shadow: 0px -3px 14px rgba(0, 0, 0, 0.14);
+}
+.footer-md:before{
+    background-image: inherit !important;
+}

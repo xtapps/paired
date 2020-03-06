@@ -1,0 +1,86 @@
+	<ion-toolbar>
+		<ion-row>
+			<ion-col size="2">
+				<ion-icon name="menu" class="toggle_ico" color="secondary" (click)="toggleMenu()"></ion-icon>
+			</ion-col>
+			<ion-col size="2" offset="8">
+				<ion-icon name="notifications" class="toggle_ico" [routerLink] ="['/notification']" color="secondary"></ion-icon>
+			</ion-col>
+		</ion-row>
+	</ion-toolbar>
+
+   <ion-content class="dashboard">
+
+ 	<ion-row>
+		<ion-col size="6" offset="3">
+			<img src="/assets/images/register_logo.png" class="logo_img">
+		</ion-col>
+	</ion-row>
+
+	<p class="mob_text">Welcome Raja</p>
+
+	<p class="mob_text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+	<p class="mob_text2">2000 Joint Profiles</p>
+	<p class="mob_text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+	<p class="mob_text2">Create a Joint Profile</p>
+	<p class="mob_text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+	<p class="mob_text2">Access the Pair'd Community</p>
+
+
+	<ion-card color="white" class="find_partnerbtn" [routerLink] ="['/find-partner']">
+		<ion-row>
+			<ion-col size="2">
+				<img src="/assets/images/search_icon.png" class="find_icon1">
+			</ion-col>
+			<ion-col size="10">
+				<p class="find_txt">Find Your Partner</p>
+			</ion-col>
+		</ion-row>
+	</ion-card>
+
+	<ion-row [routerLink] ="['/edit-profile']">
+		<ion-col size="2" offset="3">
+			<img src="/assets/images/edit.png" class="find_icon">
+		</ion-col>
+		<ion-col size="6">
+			<p class="mob_text3">Edit Your Profile</p>
+		</ion-col>
+	</ion-row>
+
+ <ion-row>
+   <ion-col size="5" offset="1">
+	<ion-card class="pro_card2"> 
+         <p>Joint Profiles <br> Created</p>
+         <p class="pro_num">345</p>
+	</ion-card>
+</ion-col>
+<ion-col size="5">
+	<ion-card class="pro_card2" > 
+         <p>Joint Profiles <br> to go</p>
+         <p class="pro_num">1345</p>
+	</ion-card>
+</ion-col>
+</ion-row>
+
+<p class="help_btn">Help Us Launch ?</p>
+
+<ion-row class="social_icons">
+	<ion-col size="3">
+		<ion-icon name="logo-instagram" color="secondary"></ion-icon>
+	</ion-col>
+	<ion-col size="3">
+		<ion-icon name="logo-facebook" color="secondary"></ion-icon>
+	</ion-col>
+	<ion-col size="3">
+		<ion-icon name="logo-twitter" color="secondary"></ion-icon>
+	</ion-col>
+	<ion-col size="3">
+		<ion-icon name="chatbubbles" color="secondary"></ion-icon>
+	</ion-col>
+</ion-row>
+
+<p style="margin-bottom: 30px;" class="mob_text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+
+</ion-content>

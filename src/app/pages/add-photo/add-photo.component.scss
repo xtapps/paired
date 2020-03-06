@@ -1,0 +1,94 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+.notify{
+    margin: 25px 0 0 0;
+    font-size: 13px;
+    color: #bd8f99;
+}
+.back_btn{
+	margin: 10px 0 0 0;
+}
+.tool{
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+.photo_card{
+    height: 76px;
+    position: relative;
+    .upload_photo{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
+    }
+}
+.photo_uploads{
+    width: 85%;
+    margin:30px auto;
+    ion-col{
+        padding: 0 8px 20px;
+    }
+}
+.dotted_card{
+    border: 2px dashed #c399a2;
+    height: 76px;
+    box-shadow: none;
+    position: relative;
+    border-radius: 8px;
+}
+.delete_pic, .add_pic{
+    right: -8px;
+    bottom: -8px;
+    padding: 4px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    display: block;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+.add_photo{
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    p{
+        text-align: center;
+        font-size: 12px;
+        color: #b48690;
+    }
+}
+.alert_ico{
+    margin: 19px 0 0 28px;
+    font-size: 12px;
+}
+.txt_icon{
+    font-size: 9px;
+    margin: 12px 20px 10px 0;
+}
+.done_card{
+    width: 80%;
+    font-weight: 700;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: 34px;
+    background-color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    p{
+        text-align: center;
+        margin: 7px;
+        color: #b48690;
+        font-size: 11px;
+    }
+}

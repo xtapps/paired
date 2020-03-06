@@ -1,0 +1,38 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+.mob_text{
+    color: #777;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.input_card{
+    width:76%;
+	margin: 15px auto;
+    border-radius: 28px;
+    padding: 0px;
+    background-color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.27);
+    border: 2px solid #d4b6bb;
+}
+.user_text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #888888;
+    margin: 0px 60px;
+}
+.appear_text{
+    text-align: center;
+    font-size: 8px;
+    font-weight: 500;
+}
+.login_btn{
+    padding: 14px;
+}

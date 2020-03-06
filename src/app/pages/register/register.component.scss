@@ -1,0 +1,79 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+.input_card{
+    margin: 12px auto;
+    width: 76%;
+    background-color: #fff;
+    border-radius: 28px;
+    padding: 2px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.27);
+    border: 2px solid #d4b6bb;
+}
+.welcome_txt{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: #626262;
+}
+.wlcm_disc{
+    text-align: center;
+    font-size: 9px;
+    padding: 0 45px;
+    color: #1b1414;
+}
+.check_text{
+    font-size: 9px;
+    color: #727272;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 12px;
+}
+.check_box{
+    position: absolute; 
+}
+.log_btn{
+    text-align: center;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0 0 30px;
+    color: #6d6d6d;
+    font-weight: 600;
+    outline: none;  
+}
+.user_text{
+    font-size: 11px;
+    font-weight: 600;
+    color: #6f6f6f;
+    margin: 0px 8px;
+}
+.signup_btn{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    color: #c49aa3;
+    outline: none;
+    margin-bottom:40px;
+}
+.register_logo{
+    margin-top: 30px;
+}
+.login_btn{
+    margin: -49px 0 -25px;
+    padding: 14px;
+}
+ion-checkbox{
+    margin:0 6px;
+    width:12px;
+    height:12px;
+}
+ion-label{
+    white-space:normal !important;
+}

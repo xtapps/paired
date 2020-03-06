@@ -1,0 +1,46 @@
+   <ion-toolbar class="tool">
+	   <ion-row>
+		   <ion-col size="2">
+			   	<ion-back-button defaultHref="" class="back_btn" color="secondary"></ion-back-button>
+		   </ion-col>
+			   <ion-col size="8">
+			   	<p class="notify">User Settings</p>
+			   </ion-col>
+	   </ion-row>
+   </ion-toolbar>
+
+   <ion-content class="dashboard">
+
+
+      <ion-card class="password_card">
+      	<ion-row>
+      		
+      		<ion-col size="12">
+				<img src="/assets/images/setting_ico.png" class="setting_ico">
+      			<p class="change_text">Change Password</p>
+      		</ion-col>
+      	</ion-row>
+      </ion-card>
+
+         <ion-card class="password_card" [routerLink] ="['/notification']">
+      	<ion-row>
+      		
+      		<ion-col size="12">
+				<img src="/assets/images/bell_icon.png" class="setting_ico">
+      			<p class="change_text">Notification</p>
+      		</ion-col>
+      	</ion-row>
+      </ion-card>
+
+         <ion-card class="password_card">
+      	<ion-row>
+
+      		<ion-col size="12">
+				<img src="/assets/images/setting_ico.png" class="setting_ico">
+      			<p class="change_text">Faq</p>
+      		</ion-col>
+      	</ion-row>
+      </ion-card>
+
+
+   </ion-content>

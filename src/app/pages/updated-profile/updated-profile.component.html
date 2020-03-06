@@ -1,0 +1,49 @@
+  <ion-toolbar>
+      <ion-buttons slot="start" class="back_btn">
+        <ion-back-button defaultHref="" color="secondary"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+
+  <ion-content class="dashboard">
+
+  	<ion-row>
+  		<ion-col size="6" offset="3">
+  			<img src="/assets/images/profile_pic.png" class="profile_pic">
+  		</ion-col>
+  	</ion-row>
+
+  	<p class="name_couple">Jim (45) & Sara (39)</p>
+  	<P class="marry_text">Married</P>
+
+  	<ion-row>
+  		<ion-col size="2" offset="3" [routerLink] ="['/user-settings']">
+  			<ion-card class="update_icons">
+  				<img src="/assets/images/setting_ico.png" class="setting_ico">
+  			</ion-card>
+  			<p class="icon_text">Settings</p>
+  		</ion-col>
+  		<ion-col size="2" [routerLink] ="['/edit-profile']">
+  			<ion-card class="update_icons">
+  				<img src="/assets/images/edit.png" class="setting_ico">
+  			</ion-card>
+  			<p class="icon_text">Edit Profile</p>
+  		</ion-col>
+  		<ion-col size="2" [routerLink] ="['/add-photo']">
+  			<ion-card class="update_icons">
+  				<img src="/assets/images/cam_ico.png" class="setting_ico">
+  			</ion-card>
+  			<p class="icon_text">Add Photo</p>
+  		</ion-col>
+  	</ion-row>
+
+  	<ion-card class="info_card">
+  		<p class="bio">Bio</p>
+  		<p class="info_txt">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+  	</ion-card>
+
+  		<ion-card class="info_card">
+  		<p class="bio">Activities</p>
+  		<p class="info_txt">Travel,Swimming,Photography,Wall Art,Food Expploring</p>
+  	</ion-card>
+ 
+  </ion-content>

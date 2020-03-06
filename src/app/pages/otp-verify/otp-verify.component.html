@@ -1,0 +1,44 @@
+<ion-toolbar>
+<ion-buttons slot="start" class="back_btn">
+   <ion-back-button defaultHref="" color="secondary"></ion-back-button>
+</ion-buttons>
+</ion-toolbar>
+
+<ion-content class="dashboard">
+
+	<ion-row>
+		<ion-col size="4" offset="4">
+			<img src="/assets/images/mobile_logo.png" class="logo_img">
+		</ion-col>
+	</ion-row>
+
+  <p class="mob_text">My Code is</p>
+
+
+
+	<ion-row class="ion-text-center">
+	  <ion-col>
+	   <ion-input #otp1 required maxLength="1" >
+	   </ion-input>
+	   <ion-input #otp2 required maxLength="1" >
+	   </ion-input>
+	   <ion-input #otp3 required maxLength="1"  >
+	   </ion-input>
+	   <ion-input #otp4  required maxLength="1" >
+	   </ion-input>
+	   <ion-input #otp5  required maxLength="1" >
+	   </ion-input>
+	  </ion-col>
+	</ion-row>
+
+			<p class="code_txt">Don't Get a Code</p>
+			
+	<ion-row>
+		<ion-col size="4" offset="4" [routerLink] ="['/status']">
+			<img src="/assets/images/login_btn.png" class="login_btn">
+		</ion-col>
+	</ion-row>
+
+
+
+</ion-content>

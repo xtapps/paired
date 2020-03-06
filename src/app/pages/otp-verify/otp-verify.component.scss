@@ -1,0 +1,39 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+
+.mob_text{
+    color: #777;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+ion-input{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    padding: 0 !important;
+    border-radius: 6px;
+    --background: #ffffff;
+    box-shadow: inset 0 0 4px rgba(12, 11, 11, 0.27);
+ }
+ .sc-ion-input-md-h {
+    --padding-start: 0 !important;
+}
+.code_txt{
+    text-align: center;
+    font-size: 10px;
+    color: #be909a;
+    font-weight: 600;
+}
+.login_btn{
+    margin: -30px auto;
+    padding: 14px;
+}

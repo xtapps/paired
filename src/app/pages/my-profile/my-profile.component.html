@@ -1,0 +1,73 @@
+   <ion-toolbar color="secondary">
+	   <ion-row>
+		   <ion-col size="2">
+			   	<ion-back-button defaultHref="" class="back_btn"></ion-back-button>
+		   </ion-col>
+			   <ion-col size="8">
+			   	<p class="notify">My Profile</p>
+			   </ion-col>
+	   </ion-row>
+   </ion-toolbar>
+
+   <ion-content class="dashboard">
+
+   	<ion-row class="grid_pics">
+   		<ion-col size="6">
+	
+			<ion-row>	
+				<img src="/assets/images/profile_pic.png" class="grid_50">
+			</ion-row>
+			<ion-row>	
+			    <img src="/assets/images/profile_pic.png" class="grid_50">
+			 </ion-row>
+   			
+   		</ion-col>
+   		<ion-col size="6">
+   			<img src="/assets/images/profile_pic.png" class="grid_100">
+   		</ion-col>
+   	</ion-row>
+
+   	<ion-row>
+   		<ion-col size="7">
+     	   <p class="name_jim">Jim (45) & Sara(39)</p>
+     	   <p class="married_txt">Married</p> 			
+   		</ion-col>
+   		<ion-col size="4">
+   			<ion-card class="edit_card">
+   				<ion-row>
+   					<ion-col size="5">
+   						<img src="/assets/images/edit.png" class="edit_ico" >
+   					</ion-col>
+   					<ion-col size="7">
+   						<p class="text_edit">Edit</p>
+   					</ion-col>
+   				</ion-row>
+   			</ion-card>
+   		</ion-col>
+   	</ion-row>
+
+   	<p class="bio_txt">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+
+   	<p class="married_txt1">Activities</p> 
+
+   	<p class="activity">Travel,Swimming,Photography,Wall Art,Food Expploring</p>
+
+   	<ion-card class="pro_edit" [routerLink] ="['/edit-profile']">
+   		<ion-row>
+   			<ion-col size="2">
+   				<img src="/assets/images/edit.png" class="edit_ico1" >
+   			</ion-col>
+   			<ion-col size="7">
+   				<p class="text_edit1">Edit Profile</p>
+   			</ion-col>
+   			<ion-col size="3">
+   				<ion-icon name="arrow-forward" class="forward_arrow"></ion-icon>
+   			</ion-col>
+   		</ion-row>
+   	</ion-card>
+
+   		<p class="back_home"> <ion-icon name="arrow-back"></ion-icon>Back to home</p>
+
+
+
+   </ion-content>

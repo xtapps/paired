@@ -1,0 +1,83 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+.notify{
+    margin: 25px 0 0 0;
+    font-size: 13px;
+    color: #b48690;
+}
+.back_btn{
+	margin: 10px 0 0 0;
+}
+.status_txt{
+    width: 80%;
+	margin: 20px auto 0;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+}
+.married_card{
+    width: 80%;
+    margin: 12px auto;
+    padding: 2px 12px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+.input_married{
+    background-color: #fff;
+    font-weight: 500;
+}
+.married_card1{
+	width: 80%;
+    margin: 12px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    padding: 18px;
+}
+.input_married1{
+    font-weight: 500;
+    font-size: 9px;
+}
+.married_card2{
+	width: 80%;
+    margin: 12px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    padding: 18px;
+}
+.input_married2{
+    font-weight: 600;
+    font-size: 9px;
+}
+.update_btn{
+    width: 80%;
+	margin: 12px auto;
+    color: #b98e97;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius:10px;
+    background-color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    text-transform: capitalize;
+}
+.back_home{
+    text-align: center;
+    font-size: 12px;
+    margin:14px auto;
+    font-weight: 700;
+}
+.tool{
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+.footer-md:before {
+    background-image: none;
+}

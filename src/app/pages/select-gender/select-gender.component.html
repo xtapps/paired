@@ -1,0 +1,62 @@
+	  <ion-header>
+		  <ion-toolbar lines="none">
+	      <ion-buttons slot="start" class="back_btn">
+	        <ion-back-button defaultHref="" color="secondary"></ion-back-button>
+	      </ion-buttons>
+	  </ion-toolbar>
+	</ion-header>
+
+
+	   <ion-content class="dashboard">
+
+	 	<ion-row>
+			<ion-col size="4" offset="4">
+				<img src="/assets/images/mobile_logo.png" class="logo_img">
+			</ion-col>
+		</ion-row>
+
+		<p class="mob_text">Select Gender</p>
+      <ion-radio-group>
+		
+		  <ul>
+		   <li><div class="my-checkbox">
+			   <ion-radio name="Male" value="1" color="secondary">
+
+			   </ion-radio>
+			   	<img src="/assets/images/male_icon.png" class="gender_icon">
+
+			   <ion-label text-uppercase>Female</ion-label>
+		   </div>
+		   </li>
+           <li>
+		     <div class="my-checkbox">
+			    <ion-radio name="Female" value="2" color="secondary">
+			    </ion-radio>
+			    	<img src="/assets/images/female_icon.png" class="gender_icon">
+			     <ion-label text-uppercase>Male</ion-label>
+		   </div>
+		   </li>
+	       <li>
+			 <div class="my-checkbox">
+			    <ion-radio name="others" value="3" color="secondary">
+			    </ion-radio>
+			    <img src="/assets/images/other_gendericon.png" class="gender_icon">
+			     <ion-label text-uppercase>Other Gender</ion-label>
+			  </div>
+			</li>
+
+			</ul>
+				
+
+		</ion-radio-group>
+
+
+
+			<ion-row>
+			<ion-col size="4" offset="4" [routerLink] ="['/dashboard']">
+				<img src="/assets/images/login_btn.png" class="login_btn">
+			</ion-col>
+		</ion-row>
+
+
+	   </ion-content>

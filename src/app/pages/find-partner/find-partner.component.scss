@@ -1,0 +1,42 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+.find_partner{
+	font-weight: 700;
+    text-align: center;
+    font-size: 13px;
+    color: #be9099;
+}
+.partner_card{
+    height: 80px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 2px 6px 16px rgba(0, 0, 0, 0.22);
+}
+.partner_img{
+	width:28px;
+    margin: 25px auto 0;
+}
+.partner_text{
+    text-align: center;
+    font-size: 10px;
+    color: #6f6f6f;
+    font-weight: 700;
+}
+.back_home{
+    text-align: center;
+    font-size: 12px;
+    margin: 32px auto;
+    font-weight: 700;
+    color: #6f6f6f;
+    
+}
+.partner_search{
+    margin: 0 10px auto;
+}

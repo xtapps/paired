@@ -1,0 +1,68 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+.profile_pic{
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 10px 17px rgba(0, 0, 0, 0.4);
+}
+.name_couple{
+	text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+}
+.marry_text{
+	text-align: center;
+    font-size: 11px;
+    margin: 2px 0 0 0;
+    color: #b48690;
+    font-weight: 500;
+}
+.update_icons{
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    background: #fff
+}
+.setting_ico{
+    width: 45%;
+    margin: 12px auto 0;
+}
+.icon_text{
+    text-align: center;
+    font-size: 7px;
+    font-weight: 700;
+}
+.bio{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: #be9099;
+    margin: 0;
+}
+.info_card{
+    margin: 18px auto;
+    width: 80%;
+    padding:14px; 
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+.info_txt{
+    text-align: center;
+    font-size: 8px;
+}
+	

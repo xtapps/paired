@@ -1,0 +1,54 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+
+.input_card{
+    margin: 12px auto;
+    width: 76%;
+    border-radius: 28px;
+    padding: 2px;
+    background-color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.27);
+    border: 2px solid #d4b6bb;
+}
+.user_text{
+	font-size: 11px;
+    font-weight: 600;
+    color: #888888;
+    margin: 0px 8px;
+}
+.log_btn{
+	text-align: center;
+    font-size: 15px;
+    padding: 12px;
+    color: #6d6d6d;
+    font-weight: 600;
+    outline: none;	
+}
+.frgt_btn{
+	font-size: 11px;
+    text-align: center;
+    font-weight: 600;
+    color: #4a4a4a;
+    outline: none;
+}
+.signup_btn{
+	text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: #c49aa3;
+    outline: none;
+}
+.logo_img{
+    margin: 62px auto 10px;
+}
+.login_btn{
+    margin: -40px 0 -25px;
+    padding: 14px;
+}

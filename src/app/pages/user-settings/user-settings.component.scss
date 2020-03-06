@@ -1,0 +1,36 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+.notify{
+    margin: 25px 0 0 0;
+    font-size: 13px;
+    color: #bd8f99;
+}
+.back_btn{
+	  margin: 10px 0 0 0;
+}
+.tool{
+  	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+.password_card{
+    background-color: #fff;
+    width:80%;
+   	margin: 22px auto 10px;
+    border-radius: 13px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+.setting_ico{
+    width: 15px;
+    float: left;
+    margin: 10px 10px 0 15px;
+}
+.change_text{
+  	font-size: 10px;
+    font-weight: 700;
+}

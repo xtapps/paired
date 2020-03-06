@@ -1,0 +1,108 @@
+:host {
+  .dashboard{
+    --background:none;
+    background:url('/assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+  }
+}
+.mob_text{
+    color: #777;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.gender_icon{
+    width: 26px;
+    position: absolute;
+    z-index: 0;
+    top: 22px;
+    position: absolute;    
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn_gender1{
+    border: 2px solid #d4b6bb;
+    border-radius: 50px;
+    width: 28%;
+    height: 17%;
+    margin: 21px 0 0 115px;
+}
+.login_btn{
+    margin: 10px auto;
+    padding: 14px;
+}
+.female_txt{
+    margin-left: 31px;
+    font-size: 12px;
+    text-align: center;
+}
+.my-checkbox {
+    display: block;
+    align-items: center;
+    text-align:center;
+    position:relative;
+    ion-radio{
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+        position: relative;
+    }
+    ion-label{
+        text-transform: capitalize !important;
+        margin: 8px 0 12px;
+        font-size: 13px;
+        font-weight:700;
+        display: block;
+    }
+    
+}
+ion-radio.radio-checked::after{
+     content: "";
+    background: #be9099;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius:100%;
+    transition:1s all;
+}
+ion-radio.radio-checked ~  .gender_icon{
+    z-index:999;
+    filter: brightness(0) invert(1);
+}
+.my-checkbox ion-radio::after{
+     content: "";
+    border: 2px solid #be9099 !important;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.27);
+}
+ion-radio-group {
+    ul{
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0 10%;
+      li{
+          list-style-type: none;
+          display: inline-block;
+          width: 50%;
+    
+      }
+    }
+}
+ion-header{
+    position: initial;
+}
